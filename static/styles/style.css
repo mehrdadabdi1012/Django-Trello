@@ -1,0 +1,20 @@
+@font-face{
+  font-family:'Titr';
+  src: url('../fonts/titr.ttf');
+}
+@font-face{
+  font-family:'Elham';
+  src: url('../fonts/elham.ttf')
+}
+
+body {
+  
+  /*font-family: "Poppins", sans-serif;*/
+  color: #000000;
+  background-color: #ffffff;
+}
+
+*{
+  font-family: "Titr";
+}
+
