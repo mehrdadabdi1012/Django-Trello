@@ -136,5 +136,5 @@ STATICFILES_DIRS = [
 MEDIA_URL = '/media/'                           # Base url to serve media files     (read from )
 MEDIA_ROOT = BASE_DIR / 'media'
 
-
+AUTH_USER_MODEL = 'accounts.MyUser'       # <appname>.<modelname>
 
